@@ -1,0 +1,28 @@
+.grid-container{
+    display: grid;
+    /* width:800px;
+    height: 400px; */
+    grid-template-columns: auto auto;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 30px;
+    margin: 60px 300px;
+  }
+  .grid-container .item{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .grid-container #first{
+    background: pink url('https://cdni.iconscout.com/illustration/premium/thumb/user-account-sign-up-4489360-3723267.png') no-repeat center;
+    background-size: contain;
+    border-radius: 30px;
+    padding: 10px;
+  }
+  
+ .btn{
+    background-color:pink;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 100px;
+ }

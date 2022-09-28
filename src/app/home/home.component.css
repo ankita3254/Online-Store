@@ -1,0 +1,142 @@
+.site-slider{
+    position: relative;
+}
+
+.position-top{
+    position: absolute;
+    top: 50%;
+}
+
+
+.right-0{
+    right:0;
+}
+
+
+
+.site-slider-two{
+    position: relative;
+    height: 400px;
+}
+
+.site-slider-two .product img{
+    width: 90%;
+    margin: auto;
+}
+
+
+.site-btn .btn-span{
+    margin-top: 50%;
+    padding: 0.8rem 1.9rem;
+    border-radius: 6rem;
+    text-decoration: none;
+    border: 1px solid var(--border);
+    background-color: white;
+    color: var(--light-grey);
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+a:hover{
+  color: rgb(241, 137, 241);
+  font-size: 20px;
+  transition: 0s;
+}
+
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(/assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: 30% 30%;
+    background-color: rgb(29, 35, 103);
+    padding-left: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+.news{
+    padding-top: 3%;
+  }
+  #newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: beige;
+  }
+
+  #newsletter p{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(133, 130, 139);
+  }
+
+  #newsletter p span{
+    color: rgb(225, 225, 44);
+  }
+
+  #newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  #newsletter button{
+    border-radius: 4px;
+    padding: 3%;
+    margin-top:6px;
+    border: 1px solid transparent;
+    outline: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: rgba(4, 153, 246, 0.717);
+    color: white;
+  }
+
+  footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  /* footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  footer p{
+    font-size: 13px;
+    padding-bottom: 20px;
+  } */
+
+  .col a{
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+  }
+  .cont{
+    margin-top: 3%;
+    
+  }
+  .cont2{
+    margin-bottom: 3%;
+  }
+  .container-fluid{
+    margin-bottom: 4%;
+  }
